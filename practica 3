@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main(){
+    int n;
+    int sum =0;
+    int contador = 0;
+    do {
+    printf("Ingrese un numero: ");
+    scanf("%d", &n);
+    sum = sum + n;
+    contador++;
+        
+    }
+     while(sum <= 100 && contador < 10);
+     
+     printf("La condicion se ha cumplido");
+    
+}
