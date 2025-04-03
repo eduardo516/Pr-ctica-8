@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int main() {
+void main() {
     int n;
     
     // Pedir al usuario el valor de n
@@ -39,9 +39,5 @@ int main() {
     printf("\nEl último número par mostrado es: %d", ultimo_par);
     printf("\nEl último número impar mostrado es: %d\n", ultimo_impar);
     
-    return 0;
 }
-
-
-Ahora el programa utiliza exclusivamente bucles do while para calcular y mostrar los números pares e impares, incluyendo los últimos de cada secuencia.
 
